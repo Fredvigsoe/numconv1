@@ -10,5 +10,5 @@ Testet på Mac(ARM64)
 For at kompilere og køre programmet, brug følgende kommando i terminalen:
 
 ```bash
-gcc numconv1.c num_ui.c -o numberconverter
-./numberconverter
+gcc -o strlib_test strlib_test.c strlib.c strlib.h
+./strlib_test
